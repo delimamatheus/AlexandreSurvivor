@@ -13,6 +13,9 @@ if (_xx != 0 or _yy != 0){
 	dir = point_direction(x, y, x + _xx, y + _yy);
 	hSpeed = lengthdir_x(spd, dir);
 	vSpeed = lengthdir_y(spd, dir);
+	
+	if(_xx > 0) { image_xscale = -1 }
+	if(_xx < 0) { image_xscale = 1 }
 
 	x += hSpeed;
 	y += vSpeed;

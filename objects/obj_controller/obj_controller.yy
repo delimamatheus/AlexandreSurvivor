@@ -1,17 +1,11 @@
 {
-  "spriteId": {
-    "name": "spr_Alexandre_Devil",
-    "path": "sprites/spr_Alexandre_Devil/spr_Alexandre_Devil.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_Enemy_Parent",
-    "path": "objects/obj_Enemy_Parent/obj_Enemy_Parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,15 +18,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objetos/Enemies.yy",
+    "name": "Game Controllers",
+    "path": "folders/Objetos/Game Controllers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Alexandre_Devil",
+  "name": "obj_Controller",
   "tags": [],
   "resourceType": "GMObject",
 }

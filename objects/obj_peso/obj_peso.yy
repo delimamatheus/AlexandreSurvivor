@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Alexandre_Devil",
-    "path": "sprites/spr_Alexandre_Devil/spr_Alexandre_Devil.yy",
+    "name": "spr_Peso",
+    "path": "sprites/spr_Peso/spr_Peso.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_Enemy_Parent",
-    "path": "objects/obj_Enemy_Parent/obj_Enemy_Parent.yy",
+    "name": "obj_Weapon_Parent",
+    "path": "objects/obj_Weapon_Parent/obj_Weapon_Parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,15 +24,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":40,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objetos/Enemies.yy",
+    "name": "Weapons",
+    "path": "folders/Objetos/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Alexandre_Devil",
+  "name": "obj_Peso",
   "tags": [],
   "resourceType": "GMObject",
 }
