@@ -1,6 +1,6 @@
-/// @description Inserir descrição aqui
+/// @description Peso
 
-peso = instance_create_layer(x,y,"Instances",obj_Peso);
+var peso = instance_create_layer(x,y,"Instances",obj_Peso);
 
 peso.direction = irandom_range(45,135);
 peso.speed = 4;

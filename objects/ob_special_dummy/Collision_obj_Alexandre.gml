@@ -1,8 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+obj_Alexandre.slot[2] = "special";
 
-target = obj_Alexandre;
-spd = 3;
-length = 64;
-place = 0;
+instance_destroy();

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Special",
+    "path": "sprites/spr_Special/spr_Special.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -19,8 +22,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Alexandre","path":"objects/obj_Alexandre/obj_Alexandre.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,7 +31,7 @@
     "path": "folders/Objetos/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Weapon_Parent",
+  "name": "ob_Special_Dummy",
   "tags": [],
   "resourceType": "GMObject",
 }

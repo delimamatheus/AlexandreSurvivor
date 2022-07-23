@@ -2,7 +2,9 @@
 // Você pode escrever seu código neste editor
 
 
-target = obj_Alexandre;
-spd = 3;
-length = 64;
-place = 0;
+
+// Inherit the parent event
+event_inherited();
+
+spd = 0.7;
+hp = 10;

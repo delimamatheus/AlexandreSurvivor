@@ -12,8 +12,18 @@ dir = -1;
 
 // timers
 
-alarmTime0 = 80;
-alarmTime1 = 120;
+alarmTime[0] = 20;
+alarmTime[1] = 15;
+alarmTime[2] = 15;
 
-alarm[0] = alarmTime0;
-alarm[1] = alarmTime1;
+alarm[0] = alarmTime[0];
+alarm[1] = alarmTime[1];
+alarm[2] = alarmTime[2];
+
+slot[0] = "slash";
+slot[1] = "peso";
+slot[2] = "";
+
+Damage_Slash = 1;
+Damage_Peso = 1;
+Damage_Special = 1;

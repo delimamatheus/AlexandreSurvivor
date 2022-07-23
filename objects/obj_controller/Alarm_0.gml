@@ -10,6 +10,10 @@ else { image_xscale = 1 }
 
 depth = -y;
 
+if (sprite_index == sprWhite) {
+	sprite_index = spr;
+}
+
 }
 
 obj_Alexandre.depth = -obj_Alexandre.y;
