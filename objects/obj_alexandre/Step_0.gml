@@ -1,5 +1,8 @@
 /// @description Inserir descrição aqui
 
+if(instance_exists(obj_Upgrade)){ image_speed = 0; exit; }
+
+image_speed = 1;
 right = keyboard_check(ord("D")) or keyboard_check(vk_right);
 up = keyboard_check(ord("W")) or keyboard_check(vk_up);
 down = keyboard_check(ord("S")) or keyboard_check(vk_down);

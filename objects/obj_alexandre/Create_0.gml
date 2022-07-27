@@ -12,9 +12,9 @@ dir = -1;
 
 // timers
 
-alarmTime[0] = 20;
-alarmTime[1] = 15;
-alarmTime[2] = 15;
+alarmTime[0] = 60;
+alarmTime[1] = 60;
+alarmTime[2] = 60;
 
 alarm[0] = alarmTime[0];
 alarm[1] = alarmTime[1];
@@ -27,3 +27,8 @@ slot[2] = "";
 Damage_Slash = 1;
 Damage_Peso = 1;
 Damage_Special = 1;
+
+collectRadius = 50;
+
+xp = 0;
+xpNext = 4;

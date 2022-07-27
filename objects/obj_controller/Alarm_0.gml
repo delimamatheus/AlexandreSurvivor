@@ -2,6 +2,7 @@
 
 with(obj_Enemy_Parent){
 
+image_speed = 1;
 direction = point_direction(x,y,obj_Alexandre.x,obj_Alexandre.y);
 speed = spd;
 
@@ -12,6 +13,11 @@ depth = -y;
 
 if (sprite_index == sprWhite) {
 	sprite_index = spr;
+}
+
+if(instance_exists(obj_Upgrade)){ 
+	speed = 0;
+	image_speed = 0;
 }
 
 }

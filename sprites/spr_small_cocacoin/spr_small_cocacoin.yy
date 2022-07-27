@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 191,
+  "bbox_right": 7,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 7,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 192,
-  "height": 16,
+  "width": 8,
+  "height": 8,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"875ee338-c8ab-4ddc-b9c2-f276bf7d9c36","path":"sprites/spt_Floor/spt_Floor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"875ee338-c8ab-4ddc-b9c2-f276bf7d9c36","path":"sprites/spt_Floor/spt_Floor.yy",},"LayerId":{"name":"7e8c61b6-8fe6-4e92-bb57-2bd56103e67b","path":"sprites/spt_Floor/spt_Floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spt_Floor","path":"sprites/spt_Floor/spt_Floor.yy",},"resourceVersion":"1.0","name":"875ee338-c8ab-4ddc-b9c2-f276bf7d9c36","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6ecea2ec-4ef1-43e3-8c19-b9cb4254595f","path":"sprites/spr_Small_CocaCoin/spr_Small_CocaCoin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6ecea2ec-4ef1-43e3-8c19-b9cb4254595f","path":"sprites/spr_Small_CocaCoin/spr_Small_CocaCoin.yy",},"LayerId":{"name":"1729a2d3-0741-4fc6-945e-d5dd459b5999","path":"sprites/spr_Small_CocaCoin/spr_Small_CocaCoin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Small_CocaCoin","path":"sprites/spr_Small_CocaCoin/spr_Small_CocaCoin.yy",},"resourceVersion":"1.0","name":"6ecea2ec-4ef1-43e3-8c19-b9cb4254595f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spt_Floor","path":"sprites/spt_Floor/spt_Floor.yy",},
+    "spriteId": {"name":"spr_Small_CocaCoin","path":"sprites/spr_Small_CocaCoin/spr_Small_CocaCoin.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"61fadfb5-8a01-4d32-bb0d-be20a6e86f2c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"875ee338-c8ab-4ddc-b9c2-f276bf7d9c36","path":"sprites/spt_Floor/spt_Floor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"74c9fcdc-9525-40e7-9f3d-b20587b22ade","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6ecea2ec-4ef1-43e3-8c19-b9cb4254595f","path":"sprites/spr_Small_CocaCoin/spr_Small_CocaCoin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spt_Floor","path":"sprites/spt_Floor/spt_Floor.yy",},
+    "parent": {"name":"spr_Small_CocaCoin","path":"sprites/spr_Small_CocaCoin/spr_Small_CocaCoin.yy",},
     "resourceVersion": "1.4",
-    "name": "spt_Floor",
+    "name": "spr_Small_CocaCoin",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7e8c61b6-8fe6-4e92-bb57-2bd56103e67b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1729a2d3-0741-4fc6-945e-d5dd459b5999","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Room",
-    "path": "folders/Sprites/Room.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spt_Floor",
+  "name": "spr_Small_CocaCoin",
   "tags": [],
   "resourceType": "GMSprite",
 }
