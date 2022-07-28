@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+/// @description Setando valores iniciais das variáveis
 
 right = -1;
 up = -1;

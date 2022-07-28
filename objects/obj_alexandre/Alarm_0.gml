@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+/// @description Loop Skill Slot 1
 
 switch(slot[0]){
 	case "slash": event_user(0); break;	

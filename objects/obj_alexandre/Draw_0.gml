@@ -1,7 +1,7 @@
-/// @description Inserir descrição aqui
+/// @description Magnet Radius
 
-draw_self();
+ draw_self();
 
-draw_circle(x,y,collectRadius,1);
+// draw_circle(x,y,collectRadius,1);
 
 

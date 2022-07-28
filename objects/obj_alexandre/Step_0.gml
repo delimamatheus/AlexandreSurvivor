@@ -1,6 +1,10 @@
-/// @description Inserir descrição aqui
+/// @description
 
-if(instance_exists(obj_Upgrade)){ image_speed = 0; exit; }
+if(instance_exists(obj_Upgrade)){ image_speed = 0; exit; } // Verifica se está na tela de upgrade
+
+// Movimentação
+
+// Mapeamento de teclas
 
 image_speed = 1;
 right = keyboard_check(ord("D")) or keyboard_check(vk_right);
@@ -10,6 +14,8 @@ left = keyboard_check(ord("A")) or keyboard_check(vk_left);
 
 var _xx = right - left;
 var _yy = down - up;
+
+// Atualiza sprite se estiver em movimento
 
 if (_xx != 0 or _yy != 0){
 	sprite_index = spr_Alexandre_Walking;

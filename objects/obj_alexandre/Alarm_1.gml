@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+/// @description Loop Skill Slot 2
 
 
 switch(slot[1]){
